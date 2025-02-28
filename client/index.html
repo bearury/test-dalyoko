@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <form id="form">
+            <div>
+                <label for="name">
+                    Имя:
+                    <input type="text" id="name" required />
+                </label>
+            </div>
+            <div>
+                <label for="email">
+                    Email:
+                    <input type="text" id="email" required />
+                </label>
+            </div>
+            <div>
+                <label for="phone">
+                    Phone:
+                    <input type="text" id="phone" required />
+                </label>
+            </div>
+            <div>
+                <label for="project_type">
+                    Project Type:
+                    <input type="text" id="project_type" required />
+                </label>
+            </div>
+            <div>
+                <label for="project_description">
+                    Project Description:
+                    <input type="text" id="project_description" required />
+                </label>
+            </div>
+            <div>
+                <label for="budget_min">
+                    Budget Min:
+                    <input type="number" id="budget_min" />
+                </label>
+            </div>
+            <div>
+                <label for="budget_max">
+                    Budget Max:
+                    <input type="number" id="budget_max" />
+                </label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="response"></div>
+
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
