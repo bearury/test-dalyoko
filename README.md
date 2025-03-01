@@ -3,3 +3,5 @@
 ```bash
 docker-compose up --build
 ```
+
+Клиент после запуска доступен по [ссылке](http://localhost:8080)
